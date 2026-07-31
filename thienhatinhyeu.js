@@ -2328,15 +2328,13 @@ function createMultipleHeartFramedImages(imageSrc, baseSize = 3, imageIndex = 0,
 }
 function createDefaultImages() {
     const localImagePaths = [
-        'https://minhkaiyo.github.io/project-love-galaxy/4f44cae5-ab29-4e2c-8ff8-9ff161ef5370.jpg',
-        'https://minhkaiyo.github.io/project-love-galaxy/5e597510-3fd7-4243-8480-95af337f0d80.jpg',
-        'https://minhkaiyo.github.io/project-love-galaxy/eb7d1900-f5f4-4148-a798-679da6d6cf22.jpg',
-        'https://minhkaiyo.github.io/project-love-galaxy/73c3e604-1f59-41e2-a042-ef78b12e3dc1.jpg',
-        'https://minhkaiyo.github.io/project-love-galaxy/b225e40b-e982-471f-a534-733fc8748a77.jpg',
-        'https://minhkaiyo.github.io/project-love-galaxy/fdf0352c-22cf-4b69-b269-1f8ff5d3b79c.jpg',
-        'https://minhkaiyo.github.io/project-love-galaxy/0a5b57c7-315c-48ee-b8db-a88a956981cb.jpg',
-        'https://github.com/minhkaiyo/project-love-galaxy/raw/main/Screenshot_2025-09-16-22-58-46-745_com.facebook.katana.png'
-    ];
+        'https://github.com/leekyungho92/-Nhii-/blob/main/4f44cae5-ab29-4e2c-8ff8-9ff161ef5370.jpg',
+        'https://github.com/leekyungho92/-Nhii-/blob/main/5e597510-3fd7-4243-8480-95af337f0d80.jpg',
+        'https://github.com/leekyungho92/-Nhii-/blob/main/eb7d1900-f5f4-4148-a798-679da6d6cf22.jpg',
+        'https://github.com/leekyungho92/-Nhii-/blob/main/73c3e604-1f59-41e2-a042-ef78b12e3dc1.jpg',
+        'https://github.com/leekyungho92/-Nhii-/blob/main/b225e40b-e982-471f-a534-733fc8748a77.jpg',
+        'https://github.com/leekyungho92/-Nhii-/blob/main/fdf0352c-22cf-4b69-b269-1f8ff5d3b79c.jpg',
+        'https://github.com/leekyungho92/-Nhii-/blob/main/0a5b57c7-315c-48ee-b8db-a88a956981cb.jpg',
 
 
     const imageSizes = [5, 2.5, 3.5, 2.8, 3.2];
@@ -3895,13 +3893,13 @@ function createIntroText(container) {
 
     introDiv.innerHTML = `
         <h1 style="font-size: 2.5em; margin: 0; color: #ff69b4; animation: glow 2s infinite alternate;">
-            💝 Love Galaxy Lock 💝
+            💝 杜兒。💝
         </h1>
         <p style="font-size: 1.2em; margin: 10px 0; line-height: 1.6;">
-            Pass: 1809
+            Pass: 2307
         </p>
         <p style="font-size: 1em; color: #ffb6c1; margin: 15px 0;">
-            💡 <strong>Gợi ý:</strong> Ngày kỷ niệm bắt đầu... 🎄✨
+            💡 <strong>Gợi ý:</strong> ngày sinh của ai đó... 🎄✨
         </p>
         <p style="font-size: 0.9em; color: #ffc0cb; opacity: 0.8;">
             (Hint: DD/MM - 4 chữ số)
@@ -4325,7 +4323,7 @@ function checkPIN() {
         // PIN đúng
         messageElement.style.color = '#00ff7f';
         messageElement.style.textShadow = '0 0 15px rgba(0, 255, 127, 0.8)';
-        messageElement.innerHTML = '✨ <strong></strong> Welcome to Love Galaxy! 💕';
+        messageElement.innerHTML = '✨ <strong></strong> helo sếp! 💕';
 
         // Hiệu ứng thành công
         messageElement.style.animation = 'pulseGlow 1s ease-out infinite';
@@ -4532,14 +4530,13 @@ const SCREEN_CONFIG = {
 
 // 🖼️ DANH SÁCH LINK ẢNH - THAY ĐỔI Ở ĐÂY
 const IMAGE_LINKS = [
-    'https://minhkaiyo.github.io/project-love-galaxy/4f44cae5-ab29-4e2c-8ff8-9ff161ef5370.jpg',
-    'https://minhkaiyo.github.io/project-love-galaxy/5e597510-3fd7-4243-8480-95af337f0d80.jpg',
-    'https://minhkaiyo.github.io/project-love-galaxy/eb7d1900-f5f4-4148-a798-679da6d6cf22.jpg',
-    'https://minhkaiyo.github.io/project-love-galaxy/73c3e604-1f59-41e2-a042-ef78b12e3dc1.jpg',
-    // 'https://minhkaiyo.github.io/project-love-galaxy/b225e40b-e982-471f-a534-733fc8748a77.jpg',
-    // 'https://minhkaiyo.github.io/project-love-galaxy/fdf0352c-22cf-4b69-b269-1f8ff5d3b79c.jpg',
-    // 'https://minhkaiyo.github.io/project-love-galaxy/0a5b57c7-315c-48ee-b8db-a88a956981cb.jpg',
-    'https://github.com/minhkaiyo/project-love-galaxy/raw/main/Screenshot_2025-09-16-22-58-46-745_com.facebook.katana.png'
+    'https://github.com/leekyungho92/-Nhii-/blob/main/4f44cae5-ab29-4e2c-8ff8-9ff161ef5370.jpg',
+    'https://github.com/leekyungho92/-Nhii-/blob/main/5e597510-3fd7-4243-8480-95af337f0d80.jpg',
+    'https://github.com/leekyungho92/-Nhii-/blob/main/eb7d1900-f5f4-4148-a798-679da6d6cf22.jpg',
+    'https://github.com/leekyungho92/-Nhii-/blob/main/73c3e604-1f59-41e2-a042-ef78b12e3dc1.jpg',
+    // 'https://github.com/leekyungho92/-Nhii-/blob/main/b225e40b-e982-471f-a534-733fc8748a77.jpg',
+    // 'https://github.com/leekyungho92/-Nhii-/blob/main/fdf0352c-22cf-4b69-b269-1f8ff5d3b79c.jpg',
+    // 'https://github.com/leekyungho92/-Nhii-/blob/main/0a5b57c7-315c-48ee-b8db-a88a956981cb.jpg',
 ];
 
 // Object để lưu cache ảnh đã load
@@ -4768,7 +4765,7 @@ function createLuxuryImageCanvas(index) {
     
     // 🖼️ TỰ ĐỘNG LOAD ẢNH THẬT TỪ LINK (NẾU CÓ)
     const imageUrl = IMAGE_LINKS[index % IMAGE_LINKS.length];
-    if (imageUrl && imageUrl !== 'https://minhkaiyo.github.io/project-love-galaxy/0a5b57c7-315c-48ee-b8db-a88a956981cb.jpg') {
+    if (imageUrl && imageUrl !== 'https://github.com/leekyungho92/-Nhii-/blob/main/0a5b57c7-315c-48ee-b8db-a88a956981cb.jpg') {
         loadRealImageToCanvas(ctx, imageUrl, canvas.width, canvas.height, index);
     } else {
         // Nội dung ảnh placeholder sáng hơn (nếu không có ảnh thật)
